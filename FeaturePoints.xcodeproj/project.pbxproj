@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1616331320C2812700BEA7A0 /* BouncingCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1616331220C2812700BEA7A0 /* BouncingCircle.swift */; };
+		1616331520C2816C00BEA7A0 /* VirtualObjectARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1616331420C2816C00BEA7A0 /* VirtualObjectARView.swift */; };
+		1616331720C2821E00BEA7A0 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1616331620C2821E00BEA7A0 /* Utilities.swift */; };
 		163EC73620AAE01C00F0ED40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163EC73520AAE01C00F0ED40 /* AppDelegate.swift */; };
-		163EC73A20AAE01C00F0ED40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163EC73920AAE01C00F0ED40 /* ViewController.swift */; };
+		163EC73820AAE01C00F0ED40 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 163EC73720AAE01C00F0ED40 /* art.scnassets */; };
+		163EC73A20AAE01C00F0ED40 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163EC73920AAE01C00F0ED40 /* ARViewController.swift */; };
 		163EC73D20AAE01C00F0ED40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 163EC73B20AAE01C00F0ED40 /* Main.storyboard */; };
 		163EC73F20AAE01C00F0ED40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 163EC73E20AAE01C00F0ED40 /* Assets.xcassets */; };
 		163EC74220AAE01C00F0ED40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 163EC74020AAE01C00F0ED40 /* LaunchScreen.storyboard */; };
-		1642B06020AAF3E700DD4D28 /* OverlayPlane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1642B05F20AAF3E700DD4D28 /* OverlayPlane.swift */; };
+		1676AF0122156C8700D83B43 /* OverlayPlane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1676AF0022156C8600D83B43 /* OverlayPlane.swift */; };
+		16880A2E20C2AA24008D2E3E /* FeaturePointsNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16880A2D20C2AA24008D2E3E /* FeaturePointsNode.swift */; };
+		16880A3020C2AE15008D2E3E /* ARViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16880A2F20C2AE15008D2E3E /* ARViewControllerExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1616331220C2812700BEA7A0 /* BouncingCircle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BouncingCircle.swift; sourceTree = "<group>"; };
+		1616331420C2816C00BEA7A0 /* VirtualObjectARView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VirtualObjectARView.swift; sourceTree = "<group>"; };
+		1616331620C2821E00BEA7A0 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		163EC73220AAE01C00F0ED40 /* FeaturePoints.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeaturePoints.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		163EC73520AAE01C00F0ED40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		163EC73920AAE01C00F0ED40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		163EC73720AAE01C00F0ED40 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		163EC73920AAE01C00F0ED40 /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
 		163EC73C20AAE01C00F0ED40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		163EC73E20AAE01C00F0ED40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		163EC74120AAE01C00F0ED40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		163EC74320AAE01C00F0ED40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1642B05F20AAF3E700DD4D28 /* OverlayPlane.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverlayPlane.swift; sourceTree = "<group>"; };
+		1676AF0022156C8600D83B43 /* OverlayPlane.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverlayPlane.swift; sourceTree = "<group>"; };
+		16880A2D20C2AA24008D2E3E /* FeaturePointsNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturePointsNode.swift; sourceTree = "<group>"; };
+		16880A2F20C2AE15008D2E3E /* ARViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewControllerExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +69,14 @@
 			isa = PBXGroup;
 			children = (
 				163EC73520AAE01C00F0ED40 /* AppDelegate.swift */,
-				163EC73920AAE01C00F0ED40 /* ViewController.swift */,
-				1642B05F20AAF3E700DD4D28 /* OverlayPlane.swift */,
+				163EC73720AAE01C00F0ED40 /* art.scnassets */,
+				163EC73920AAE01C00F0ED40 /* ARViewController.swift */,
+				16880A2F20C2AE15008D2E3E /* ARViewControllerExtension.swift */,
+				16880A2D20C2AA24008D2E3E /* FeaturePointsNode.swift */,
+				1616331220C2812700BEA7A0 /* BouncingCircle.swift */,
+				1616331420C2816C00BEA7A0 /* VirtualObjectARView.swift */,
+				1676AF0022156C8600D83B43 /* OverlayPlane.swift */,
+				1616331620C2821E00BEA7A0 /* Utilities.swift */,
 				163EC73B20AAE01C00F0ED40 /* Main.storyboard */,
 				163EC73E20AAE01C00F0ED40 /* Assets.xcassets */,
 				163EC74020AAE01C00F0ED40 /* LaunchScreen.storyboard */,
@@ -125,6 +143,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				163EC73820AAE01C00F0ED40 /* art.scnassets in Resources */,
 				163EC74220AAE01C00F0ED40 /* LaunchScreen.storyboard in Resources */,
 				163EC73F20AAE01C00F0ED40 /* Assets.xcassets in Resources */,
 				163EC73D20AAE01C00F0ED40 /* Main.storyboard in Resources */,
@@ -138,9 +157,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				163EC73A20AAE01C00F0ED40 /* ViewController.swift in Sources */,
-				1642B06020AAF3E700DD4D28 /* OverlayPlane.swift in Sources */,
+				16880A3020C2AE15008D2E3E /* ARViewControllerExtension.swift in Sources */,
+				1616331720C2821E00BEA7A0 /* Utilities.swift in Sources */,
+				163EC73A20AAE01C00F0ED40 /* ARViewController.swift in Sources */,
+				1616331520C2816C00BEA7A0 /* VirtualObjectARView.swift in Sources */,
+				16880A2E20C2AA24008D2E3E /* FeaturePointsNode.swift in Sources */,
+				1616331320C2812700BEA7A0 /* BouncingCircle.swift in Sources */,
 				163EC73620AAE01C00F0ED40 /* AppDelegate.swift in Sources */,
+				1676AF0122156C8700D83B43 /* OverlayPlane.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +311,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W3C9BD2TD6;
 				INFOPLIST_FILE = FeaturePoints/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +330,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W3C9BD2TD6;
 				INFOPLIST_FILE = FeaturePoints/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
